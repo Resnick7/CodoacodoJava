@@ -1,0 +1,190 @@
+
+  .img-brand {
+    height: 60px;
+  }
+  
+  .navbar {
+    z-index: 100;
+  }
+  
+  .nav-color {
+    background-color:rgb(53, 58, 64);
+}
+
+  
+  .text-green {
+    color: rgb(43, 167, 69) !important;
+  }
+  
+  .text-green:hover {
+    color: rgb(150, 201, 62);
+  }
+  
+  .btn-green {
+    color: white;
+    background-color: rgb(43, 167, 69);
+  }
+  
+  .btn-green:hover {
+    color: white;
+    background-color: rgb(32, 121, 51);
+  }
+  
+  .btn-green:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(4, 144, 43, 0.7);
+  }
+  
+  .banner-img {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/ba1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .banner-position {
+    margin-bottom: 70px !important;
+    top: 60px;
+    height: 100vh;
+  }
+  
+  .bg-opaco {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.55);
+  }
+  
+  .encabezado {
+    top: 44%;
+    color: white;
+  }
+  
+  .encabezado-parrafo {  
+    font-weight: 500;  
+  }
+  
+  .bg-blue {
+    background: linear-gradient(90deg, #1c3643, #1e5372);
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: darkgrey;
+  }
+  
+  .footer-size {
+    min-height: 80px;
+  }
+  
+  .pre-line {
+    white-space: normal;
+  }
+  
+  .card {
+    width: 18rem;
+    padding: 0;
+  }
+  
+  .btn-light-green {
+    background-color: rgb(150, 201, 62);
+  }
+  
+  .btn-light-green:hover {
+    background-color: rgb(112, 150, 46);
+  }
+  
+  .font-size-lg {
+    font-size: 1.3rem;
+  }
+  
+  .text-dotted {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted #222222;
+    color: #333333;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  .text-dotted .tooltiptext {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    width: 120px;
+    padding: 5px 0;
+    margin-left: -60px;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    background-color: rgb(53, 58, 64);
+    border-radius: 6px;
+    visibility: hidden;
+    z-index: 1;
+  }
+  
+  .text-dotted:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .text-dotted .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(53, 58, 64) transparent transparent transparent;
+  }
+  
+  .img-fit-cover {
+    object-fit: cover;
+  }
+  
+  #oradores,
+  #lugar,
+  #conviertete {
+    scroll-margin-block-start: 90px;
+  }
+  
+  @media (min-width: 576px) {
+    .pre-line {
+      white-space: pre-line !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .encabezado-parrafo {
+      width: 550px;
+    }
+  
+    .pe-sm-6 {
+      padding-right: 6rem !important;
+    }
+  
+    .encabezado {
+      top: 44%;
+    }
+  
+    .text-dotted .tooltiptext {
+      width: 180px;
+      margin-left: -90px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .w-md-60 {
+      width: 60% !important;
+    }
+  
+    .top-md-0 {
+      top: 0 !important;
+    }
+  }
